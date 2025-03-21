@@ -13,7 +13,6 @@ import project.nuts.short_url_system.short_url_service.spec.ShortUrlService;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-@Service
 @RequiredArgsConstructor
 public class DefaultShortUrlService implements ShortUrlService, ApplicationRunner {
 
